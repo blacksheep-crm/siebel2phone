@@ -1,0 +1,3129 @@
+.ui-jqgrid .ui-jqgrid-titlebar-close span {
+    background: none !important
+}
+
+.ui-jqgrid .ui-jqgrid-titlebar-close span:focus,.ui-jqgrid .ui-jqgrid-titlebar-close span:hover {
+    background: none !important
+}
+
+.ui-jqgrid .ui-jqgrid-titlebar-close span.ui-icon-circle-triangle-s {
+    background: none !important
+}
+
+.ui-jqgrid .ui-jqgrid-titlebar-close span.ui-icon-circle-triangle-s:focus,.ui-jqgrid .ui-jqgrid-titlebar-close span.ui-icon-circle-triangle-s:hover {
+    background: none !important
+}
+
+#_sweclient .siebui-button-toolbar,.siebui-toolbar-toggle-communication-panel .siebui-toolbar .siebui-toolbar-enable,#siebui-toolbar-send-communication {
+    display: none
+}
+
+h2.fc-header-title {
+    min-width: 10px !important
+}
+
+body.bcrm-body {
+    background: #fff
+}
+
+body.bcrm-body #_sweclient #_swecontent {
+    min-width: 100%;
+    border-style: none;
+    top: 40px
+}
+
+body.bcrm-body #_sweclient #_sweappmenu,body.bcrm-body #_sweclient>div {
+    background: #fff
+}
+
+body.bcrm-body .ui-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    outline: 0
+}
+
+body.bcrm-body .ui-menu .ui-menu {
+    position: absolute
+}
+
+body.bcrm-body .ui-menu .ui-menu-item {
+    margin: 0;
+    cursor: pointer;
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+    border-radius: 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2)
+}
+
+body.bcrm-body .ui-menu .ui-menu-item:last-child {
+    border-bottom: 0
+}
+
+body.bcrm-body .ui-menu .ui-menu-item-wrapper {
+    position: relative;
+    padding: 3px 1em 3px .4em
+}
+
+body.bcrm-body .ui-menu .ui-menu-divider {
+    margin: 5px 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-width: 1px 0 0 0
+}
+
+body.bcrm-body .ui-menu .ui-state-focus,body.bcrm-body .ui-menu .ui-state-active {
+    margin: -1px
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch {
+    width: auto;
+    display: inline-block
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch .switch-item {
+    font-size: 36px
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch .switch-item.switch-on {
+    color: #390
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch .switch-item.switch-off {
+    color: #600
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch.on .switch-item.switch-on {
+    display: inline-block
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch.on .switch-item.switch-off {
+    display: none
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch.off .switch-item.switch-on {
+    display: none
+}
+
+body.bcrm-body .siebui-ctrl-flipswitch ~ .ui-switch.off .switch-item.switch-off {
+    display: inline-block
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea {
+    height: 23px !important
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc {
+    background-color: transparent;
+    background-image: none;
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    color: #29303f;
+    cursor: auto;
+    display: inline-block;
+    font-family: inherit;
+    font-size: 18px;
+    outline-style: none;
+    text-align: left;
+    text-indent: 0;
+    text-shadow: none;
+    padding: 0 30px 0 0;
+    margin: 5px 0 0 0;
+    resize: none;
+    width: 95% !important;
+    height: auto;
+    text-overflow: ellipsis
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency:focus,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency:focus,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input:focus,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc:focus {
+    border-bottom: 1px solid #0d2d6c;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-dropdown,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-pick,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-datetime,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-currency,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-date,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-mvg,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-phone-outbound,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc div[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc div[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc span[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc span[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc a[class^='siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc a[class*=' siebui-icon'],
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc ~ .siebui-icon-calc
+{
+    font-size: 18px !important;
+    border: 0;
+    margin: 0 0 0 -30px;
+    padding: 0;
+    position: relative;
+    left: 9px
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-dropdown::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-pick::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-datetime::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-currency::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-date::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-mvg::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .siebui-icon-phone-outbound::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc div[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc div[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc span[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc span[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc a[class^='siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc a[class*=' siebui-icon']::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-calc ~ .siebui-icon-calc::before{
+    border: 0;
+    padding: 0
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .txtarea_icon,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .txtarea_icon {
+    font-size: 18px !important;
+    border: 0;
+    background-color: rgba(255,255,255,0.8);
+    margin: 0 0 0 -30px;
+    padding: 0;
+    position: relative;
+    left: 9px;
+    bottom: 9px
+}
+
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-select ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-textarea ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-pick ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-date ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-datetime ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-mvg ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-currency ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid input.siebui-ctrl-input ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-select ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-textarea ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-pick ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-date ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-datetime ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-mvg ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-currency ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid textarea.siebui-ctrl-input ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-select ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-textarea ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-pick ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-date ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-datetime ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-mvg ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-currency ~ .txtarea_icon::before,
+body.bcrm-body .rsl-new-grid select.siebui-ctrl-input ~ .txtarea_icon::before {
+    border: 0;
+    padding: 0;
+    content: "\e61e";
+    font-family: oracle;
+    color: #0d2d6c
+}
+
+body.bcrm-body input[type="button"],body.bcrm-body button {
+    margin: 2px 5px;
+    padding: 0 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: auto;
+    width: auto;
+    line-height: 30px
+}
+
+body.bcrm-body span.appletButton {
+    line-height: 26px;
+    height: 26px;
+    padding: 2px 5px
+}
+
+body.bcrm-body span.appletButton>input {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.siebui-tile-right-scroll {
+    margin-right: 10px
+}
+
+.siebui-nav-hb-visible {
+    width: auto !important
+}
+
+.siebui-logo {
+    /*background-image: url(../../images/custom/custom-logo.png);*/
+    /*background-size: contain;*/
+    height: 60px !important;
+    padding-right: 4px
+}
+
+.siebui-login-body .siebui-login-logo {
+    background: url(../../images/custom/custom-logo.png) no-repeat center bottom
+}
+
+.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn,.siebui-toolbar-enable,.siebui-msgbar,.siebui-search-tb-btn {
+    background: white !important;
+    color: #0d2d6c !important;
+    border-style: none !important;
+    position: absolute
+}
+
+.siebui-hb-header {
+    color: black
+}
+
+.siebui-applet .siebui-applet-header {
+    display: flex !important;
+    max-height: 40px;
+    min-height: 40px
+}
+
+#srch_icon_new {
+    display: none
+}
+
+.ui-menu,.ui-menubar .ui-menubar-item .ui-menu,.siebui-list-menu,.ui-autocomplete,.siebui-appletmenu {
+    background: white !important
+}
+
+@media (max-width: 567px) {
+    .PDQToolbarContainer {
+        display:block !important;
+        visibility: visible !important
+    }
+}
+
+.PDQToolbarContainer {
+    position: relative;
+    padding: 0 2px;
+    float: left
+}
+
+.PDQToolbarContainer select {
+    cursor: pointer;
+    width: 180px;
+    position: relative;
+    left: 30px
+}
+
+td.bcrm-sli-fc {
+   /*border-radius: 30px 0px 0px 30px;*/
+}
+
+.siebui-msgbar-popup {
+    width: 100% !important
+}
+
+@media (max-width: 479px) {
+    .siebui-navigation-side #_swecontent {
+        top:90px
+    }
+}
+
+.siebui-icon-icon_delete img {
+    display: none
+}
+
+.siebui-icon-icon_delete::before {
+    content: "\e609";
+    font-family: oracle;
+    font-size: 1.2em;
+    color: #0d2d6c
+}
+
+.siebui-icon-icon_edit {
+    position: relative;
+    bottom: 10px
+}
+
+.siebui-icon-icon_edit img {
+    display: none
+}
+
+.siebui-icon-icon_edit::before {
+    content: "\e634";
+    font-family: oracle;
+    font-size: 1.2em;
+    color: #0d2d6c
+}
+
+.appletButton,.btn-default,.appletButton,.ui-dialog .ui-dialog-content .AppletButtons .siebui-popup-action a,.siebui-rta-btn,.siebui-ctrl-password ~ .siebui-ctrl-link,.appletButtons {
+    background: #0d2d6c;
+    border-style: none;
+    height: auto;
+    padding: 0 2px 0 2px;
+    color: white
+}
+
+.appletButtonDis {
+    padding: 0 2px 0 2px;
+    border-style: none
+}
+
+.siebui-applet.siebui-active {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0d2d6c;
+    -webkit-box-shadow: #fff 0 0 0 0
+}
+
+.siebui-applet[title='Calendar Form Applet'] {
+    border-width: 0px
+}
+
+#NavPaneApplet {
+    position: fixed;
+    z-index: 10000;
+    width: 100%;
+    background: white;
+    top: 38px
+}
+
+#_Parentapplet_Form,#_FormParentRelatedItemsOuterCont {
+    position: relative
+}
+
+th[id*='SelectAll'],td[id*='SelectAll'],.jqgfirstrow>td:nth-of-type(2) {
+    width: 0px !important
+}
+
+#sieb-ui-popup-mvg-available th[id*='SelectAll'],#sieb-ui-popup-mvg-available td[id*='SelectAll'],#sieb-ui-popup-mvg-available .jqgfirstrow>td:nth-of-type(2) {
+    width: 24px !important
+}
+
+@media (max-width: 767px) {
+    .siebui-applet .siebui-applet-header span.siebui-icon-bttns_more,.siebui-applet .siebui-applet-header span.siebui-icon-bttns_less {
+        display:inline-block !important;
+        background: transparent !important;
+        color: #0d2d6c;
+        padding: 0
+    }
+
+    .siebui-icon-layout_minimize_on,.siebui-icon-layout_minimize_off,.siebui-icon-layout_hide_on,.siebui-icon-layout_hide_off,.siebui-icon-find {
+        display: inline-block !important;
+        background: transparent !important;
+        color: #0d2d6c;
+        padding: 0
+    }
+}
+
+.siebui-applet .siebui-applet-header span.siebui-icon-bttns_more,.siebui-applet .siebui-applet-header span.siebui-icon-bttns_less {
+    /*position: relative;*/
+    /*top: 10px*/
+}
+
+.siebui-nav-hb.siebui-offline-nav .online-icon {
+    background: white;
+    color: darkgray;
+    display: none
+}
+
+.siebui-nav-hb.siebui-view-navs {
+    height: 20px
+}
+
+.siebui-nav-hb.siebui-offline-nav .offline-icon {
+    background: white;
+    color: #0d2d6c
+}
+
+a#MsgBar {
+    position: relative
+}
+
+.siebui-icon-columnsdisplayed span {
+    display: none !important
+}
+
+.siebui-icon-columnsdisplayed::before {
+    font-family: 'oracle';
+    content: "\e620"
+}
+@media (max-width: 767px) {
+#siebui-threadbar,#_swethreadbar,.siebui-hb-header,#sui-left-scroll {
+    display: none!important;
+}
+}
+
+#sitemapFilterInput {
+      width: 40vw!important;
+}
+
+.siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn {
+    background: white;
+    color: #0d2d6c !important;
+    /*position: absolute*/
+}
+button[title="Second Level View Bar"] {
+	position: inherit!important;
+}
+.siebui-applet .siebui-applet-header button {
+    background: white;
+    color: #0d2d6c !important;
+    position: absolute
+}
+
+.siebui-applet .siebui-collapsible .siebui-btn-icon-expanded,.siebui-applet .siebui-collapsible .siebui-btn-icon-collapsed {
+    background: white;
+    color: #0d2d6c !important;
+    position: absolute
+}
+
+.siebui-applet .siebui-applet-header button {
+    position: relative;
+    padding: 0px 2px 0px 0px
+}
+
+.siebui-tile-container {
+    width: 1600px
+}
+
+.siebui-tile-container .clearfix {
+    width: 1600px
+}
+
+form input[readonly="readonly"],form textarea[readonly="readonly"] {
+    background: white !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: transparent !important
+}
+
+
+.ui-dialog-content {
+    overflow: overlay !important
+}
+
+.siebui-tile-container .siebui-tile {
+    box-shadow: none
+}
+
+.siebui-tile-container .siebui-tile.siebui-tile-selected {
+    box-shadow: none
+}
+
+.siebui-applet .siebui-applet-header .siebui-viz-buttonbar div button {
+    background: white;
+    border-color: white
+}
+
+.siebui-icon-editviewlayout {
+    background: lightcoral;
+    border-radius: 20px;
+    margin: 0 0 0 0;
+    padding: 2px
+}
+
+.siebui-view-navs .siebui-nav-tabScreen {
+    width: 10px
+}
+
+.siebui-parent .siebui-form .siebui-form-subsection-3 .siebui-value textarea,.siebui-parent .siebui-form .siebui-form-subsection-3 .siebui-value input {
+    width: 90% !important
+}
+
+@media (min-width: 280px) {
+    .siebui-span-sm-6 {
+        width:50%;
+        float: left
+    }
+}
+
+.siebui-btn-grp-search>input {
+    width: 35% !important
+}
+
+input[aria-labelledby="QueryComboBox_Label"] {
+    width: 38% !important
+}
+
+@media (max-width: 767px) {
+    .siebui-applet .siebui-applet-header .siebui-icon-map {
+        display:block !important;
+        visibility: visible !important;
+        position: absolute;
+        left: -10px
+    }
+}
+
+.siebui-applet .siebui-applet-header div,.siebui-applet .siebui-applet-header span {
+    /*display: -webkit-box*/
+}
+
+.siebui-applet .siebui-applet-header .siebui-applet-title {
+    position: relative;
+    top: -5px;
+    font-size: 1.2em
+}
+
+.siebui-btn-grp-applet {
+    float: left !important;
+    display: table;
+    bottom: 10px;
+    position: relative
+}
+
+.siebui-applet .AppletButtons .siebui-applet-title label,.siebui-applet .siebui-applet-buttons .siebui-applet-title label {
+    font-size: 18px;
+    font-weight: bolder
+}
+
+.siebui-360-view .siebui-timeline-container {
+    float: left;
+    width: 100% !important
+}
+@media (max-width:767){
+.ui-jqgrid .ui-state-default.ui-jqgrid-pager {
+    height: 0px
+}
+}
+
+.siebui-icon-newquery {
+    display: none
+}
+
+.ui-dialog .ui-dialog-content .siebui-popup-filter .siebui-popup-button {
+    display: table-row-group;
+    float: left;
+    position: relative
+}
+
+.appletButton.siebui-icon-pickrecord,.appletButton.siebui-icon-closeapplet {
+    background-color: #0d2d6c;
+    border-width: 0px
+}
+
+
+.siebui-tile-container .siebui-tile {
+    box-shadow: none;
+    display: grid
+}
+
+.siebui-tile-container .siebui-tile.siebui-tile-selected {
+    box-shadow: none;
+    display: grid
+}
+
+.siebui-tile-container .siebui-tile .siebui-tile-name .siebui-ctrl-input {
+    font-weight: 400;
+    background: transparent
+}
+
+@media (min-width: 180px) {
+    .siebui-span-sm-4 {
+        width:33.33333333%;
+        display: block !important
+    }
+}
+
+.siebui-catalog-tile-description {
+    width: 300px
+}
+
+.siebui-form-applet-header {
+    display: inherit !important
+}
+
+.bcrm-sli-row {
+    height: 60px !important;
+    display: table;
+    width: 800px
+}
+
+.bcrm-sli-img {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 58px;
+    color: #f5f5f5;
+    font-size: 32px;
+    border-radius: 10px;
+    margin: 0 4px 0 2px;
+    position: relative;
+    background: white;
+    color: #0d2d6c;
+    float: left;
+    display: inline-grid;
+    align-items: center;
+    justify-content: center;
+    width: 58px;
+    height: 57px;
+    font-size: 32px;
+    border-radius: 50%;
+    margin: 0 4px 0 2px;
+    position: relative
+}
+
+.bcrm-sli-img p {
+    position: relative;
+    top: -14px;
+    font-family: Arial;
+    color: white
+}
+
+.bcrm-sli-rev p {
+    position: relative;
+    top: 0px
+}
+
+.bcrm-sli-dr {
+    float: left
+}
+
+.bcrm-sli-dr a {
+    cursor: pointer;
+    z-index: 9999
+}
+
+.srl-sli-dr>.srl-sli-sep {
+    cursor: pointer;
+    z-index: 9999
+}
+
+.bcrm-sli-top,.bcrm-sli-mid,.bcrm-sli-bot,.bcrm-sli-time {
+    display: flex;
+    height: 20px;
+	    /*overflow: auto;*/
+}
+.bcrm-sli-dat{
+	touch-action: inherit!important;
+}
+.bcrm-sli-rev {
+    background: rgba(115,115,115,0.46);
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+
+.bcrm-sli-rev p {
+    font-size: 14px;
+    color: rgba(25,115,159,0.9);
+    font-weight: normal;
+    transform: scaleY(3.5);
+    font-family: Verdana
+}
+
+div.bcrm-sli-toggle-list::before {
+    content: "\e680";
+    font-family: oracle;
+    font-size: 1.2em;
+    color: #0d2d6c
+}
+
+div.bcrm-sli-toggle-super::before {
+    content: "\e681";
+    font-family: oracle;
+    font-size: 1.2em;
+    color: #0d2d6c
+}
+
+.siebui-icon-recnav_next_off::before,.siebui-icon-recnav_next_on::before,.siebui-icon-recnav_prev_off::before,.siebui-icon-recnav_prev_on::before {
+    color: #0d2d6c;
+    font-size: 1.2em
+}
+
+.siebui-icon-recnav_prev_off::before,.siebui-icon-recnav_prev_on::before {
+    padding-left: 4px
+}
+
+.bcrm-sli-time {
+    font-size: 1em;
+    font-weight: bold;
+    color: dimgrey
+}
+
+time.bcrm-sli-calicon,bcrm-sli-calicon {
+    font-size: 0.5em;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #fff
+}
+
+time.bcrm-sli-calicon *,bcrm-sli-calicon * {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center
+}
+
+time.bcrm-sli-calicon strong,bcrm-sli-calicon strong {
+    position: absolute;
+    height: 18px;
+    top: 0;
+    color: #fff;
+    background-color: #8c90d9;
+    border-bottom: 1px dashed #ebeaf5;
+    box-shadow: 0 1px 0 #eae9f2
+}
+
+time.bcrm-sli-calicon em,bcrm-sli-calicon em {
+    position: absolute;
+    bottom: 0px;
+    color: #8c90d9;
+    font-size: 0.8em
+}
+
+time.bcrm-sli-calicon span,bcrm-sli-calicon span {
+    padding-top: 21px;
+    color: #2f2f2f;
+    font-size: 1.5em
+}
+
+.siebui-icon-bttns_more {
+    /*top: 10px;*/
+}
+
+.siebui-msgbar-summary,.siebui-msgbar-date {
+    font-size: 1.1em;
+}
+
+.siebui-msgbar-summary {
+    width: 80% !important;
+}
+
+.siebui-msgbar-msg-normal>p,.siebui-msgbar-msg-urgent>p {
+    margin: 0px;
+    top: -20px;
+    position: relative;
+    padding: 0px;
+    height: 22px
+}
+
+.fc-left {
+    width: auto;
+}
+
+.fc .fc-center h2 {
+    font-size: 0.6em;
+}
+
+.fc .siebui-ctrl-btn {
+    padding: 5px 10px 5px 0px;
+}
+
+.siebui-cal-col-hdr .siebui-hdr-add-container {
+    display: inline
+}
+
+.siebui-col-hdr-row {
+    font-size: 0.6em
+}
+
+.fc-month-view .fc-day-header {
+    font-size: 0.6em;
+    padding: 0px
+}
+
+
+#bcrm_date_ctl {
+    font-family: inherit;
+    height: 28px;
+    border-color: #727780;
+    border-width: 1px;
+    font-size: 15px
+}
+
+@media (max-width: 320px) {
+    #bcrm_date_ctl {
+        width:100px !important
+    }
+}
+
+.bcrm-sli-dat-inactive {
+    color: darkgray !important;
+    background: #dedede !important
+}
+
+.bcrm-sli-dat-inactive div {
+    color: darkgray !important;
+    background: #dedede !important
+}
+
+.bcrm-sli-dat-inactive div a {
+    color: darkgray !important;
+    background: #dedede !important
+}
+
+.siebui-navigation-side .siebui-toolbar-settings {
+    display: initial !important;
+    visibility: initial !important
+}
+
+.siebui-banner-btn .siebui-toolbar-enable,.siebui-nav-hb.siebui-offline-nav .offline-hb-nav-btn {
+    border-style: none !important
+}
+
+textarea,input {
+    width: 98% !important
+}
+
+.siebui-parent .siebui-form .siebui-form-subsection-2 .siebui-value textarea {
+    width: 100% !important;
+    float: inherit !important
+}
+
+.siebui-input-popup,.siebui-drilldown-input,.siebui-ctrl-input {
+    width: 98% !important
+}
+
+.ui-jqgrid .ui-jqgrid-htable .ui-jqgrid-sortable {
+    text-align: left
+}
+/*popup debug*/
+.ui-dialog .siebui-list {
+    /*max-height: 300px !important*/
+}
+
+.ui-dialog .ui-dialog-content .siebui-popup-filter .siebui-popup-button .siebui-ctrl-input,.ui-dialog .ui-dialog-content .siebui-popup-filter .siebui-popup-button .siebui-ctrl-select {
+    width: 110px !important
+}
+
+#sieb-ui-popup-mvg-available .siebui-popup-button input {
+    width: 110px !important;
+}
+
+
+.siebui-icon-icon_delete {
+    top: 5px;
+    position: relative;
+}
+
+.siebui-salutation table {
+    display: flex;
+}
+
+span[class*='siebui-icon-helptext'] {
+    display: none;
+}
+
+.mceGridField .siebui-ctrl-input ~ span .siebui-anchor-readonly,.siebui-input-popup ~ span .siebui-anchor-readonly {
+    width: 170px !important;
+}
+
+.siebui-mobile .siebui-span-lg-4 .siebui-value {
+    display: inherit;
+}
+
+.siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .ui-accordion-header .siebui-msgbar-date {
+       font-size: 0.9em;
+}
+.siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .ui-accordion-content {
+
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+tr.footrow td[aria-describedby*="SelectAll"] {
+    width: 0px !important;
+}
+
+.ui-jqgrid tr.footrow td {
+    outline-style: none;
+}
+
+.siebui-parent .siebui-form .siebui-span-lg-4 {
+    padding-top: 0px;
+}
+
+.ui-dialog .siebui-icon-writerecord,.ui-dialog .siebui-icon-executequery,.ui-dialog .siebui-icon-undoquery,.ui-dialog .siebui-icon-deleterecord {
+    display: initial;
+    background: transparent;
+    color: #0d2d6c;
+}
+
+#_FormParentRelatedItems form[onsubmit*='return'] input[readonly="readonly"],#_Parentapplet_Form form[onsubmit*='return'] input[readonly="readonly"] {
+    background: white !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: #727780 !important;
+}
+
+div[title-preserved="Columns Displayed"] select[name="ShownItems"] {
+    width: 100%
+}
+
+@media (max-width: 1199px) {
+    .siebui-cal-hdr-wrapper .siebui-cal-btn-today,.siebui-cal-hdr-wrapper .fc-left .siebui-cal-btn-newEvent {
+        display:inline !important
+    }
+}
+
+#cal_shortHdr_newEvent_button {
+    display: none !important
+}
+
+.siebui-parent .siebui-form .siebui-span-lg-4 .siebui-value input+a {
+    padding: 0px 0px 0px 6px
+}
+
+.siebui-child {
+    margin-top: 0px
+}
+
+.fc-center #cal_today_button {
+    display: none !important
+}
+
+#bcrm_find_btn {
+    position: absolute
+}
+
+.siebui-offline-nav {
+    display: none
+}
+
+.siebui-popup-currency input {
+    width: 180px !important
+}
+
+.ui-dialog-buttonset button {
+    font-size: 0.95em
+}
+
+.ui-dialog-buttonset button.siebui-icon-deleterecords::before,.ui-dialog-buttonset button.siebui-icon-deleteallrecords::before,.ui-dialog-buttonset button.siebui-icon-addrecords::after {
+    content: ""
+}
+
+#sieb-ui-popup-mvg-selected .siebui-popup-filter {
+    height: 30px !important
+}
+
+span.siebui-file-label,button.siebui-icon-showurlpopup {
+    font-size: 1em
+}
+
+.siebui-view-navs .siebui-nav-tabScreen {
+    width: 40px
+}
+
+#NavPaneApplet {
+    position: fixed;
+    z-index: 2000;
+    padding-top: 4px
+}
+
+.rsl-hidden {
+    display: none !important;
+    visibility: hidden !important
+}
+
+.siebui-applet-buttons.rsl-hidden,.siebui-applet-buttons.rsl-hidden-loc {
+    display: inherit !important;
+    visibility: inherit !important
+}
+
+div.AppletButtons.siebui-applet-buttons.rsl-hidden-loc.rsl-hidden {
+    display: inherit !important;
+    visibility: inherit !important
+}
+
+.ui-selectmenu-menu ul.ui-menu {
+    width: auto;
+    font-size: 1.2em
+}
+
+.ui-selectmenu-menu ul.ui-menu li {
+    margin-top: 4px
+}
+
+.ui-icon-triangle-1-s::before {
+    font-size: .9em;
+    float: right
+}
+
+div.ui-dialog {
+    max-height: 85vh;
+    min-width: 320px
+}
+
+div.ui-dialog[aria-describedby="Msg_Summary"] {
+    max-height: unset;
+	top: 40px!important;
+}
+
+#PDQToolbar {
+    text-align: left;
+    width: 180px
+}
+
+.ui-selectmenu-menu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none
+}
+
+.ui-selectmenu-menu .ui-menu {
+    overflow: auto;
+    overflow-x: hidden;
+    padding-bottom: 1px
+}
+
+.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 2px 0.4em;
+    margin: 0.5em 0 0 0;
+    height: auto;
+    border: 0
+}
+
+.ui-selectmenu-open {
+    display: block
+}
+
+.ui-selectmenu-text {
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.ui-selectmenu-button {
+    text-align: left;
+    white-space: nowrap;
+    width: 14em
+}
+
+.ui-selectmenu-button.ui-button {
+    text-align: left;
+    white-space: nowrap;
+    width: 14em
+}
+
+.ui-selectmenu-icon.ui-icon {
+    float: right;
+    margin-top: 0
+}
+
+.siebui-mobile-app-content .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn {
+    background-color: unset
+}
+
+.siebui-icon-recnav_prev_on,.siebui-icon-recnav_next_on,.siebui-icon-recnav_prev_off,.siebui-icon-recnav_next_off {
+   /* bottom: 10px !important;*/
+    /*position: relative*/
+}
+
+.bcrm-btn-cont {
+    width: 56px;
+    position: fixed;
+    bottom: 50px;
+    z-index: 9999;
+    float: right;
+    right: 15px
+}
+
+.bcrm-big-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+
+.bcrm-big-btn content {
+    font-family: oracle;
+    color: white;
+}
+
+.bcrm-plus-btn {
+    background: #0d2d6c;
+}
+
+.bcrm-plus-btn-content::before {
+    content: "\e6a4";
+	padding-right: 2px;
+}
+
+.bcrm-custom-btn {
+    background: #0d2d6c;
+}
+
+.bcrm-custom-btn-content::before {
+    content: "";
+	padding-right: 2px;
+}
+
+.bcrm-help-btn {
+    background: #cddc39;
+}
+
+.bcrm-help-btn-content::before {
+    content: "\e631";
+}
+
+.bcrm-create-btn {
+    background: #0d2d6c;
+}
+
+.bcrm-create-btn-content::before {
+    content: "\e6a4";
+	padding-right: 2px;
+	position:relative;
+	left: 8px;
+    top: -16px;
+    font-size: 24pt;
+}
+.bcrm-create-btn-content::after {
+    content: "\e6a4";
+	padding-right: 2px;
+	position:relative;
+	top: 8px;
+    font-size: 24pt;
+    left: -6px;
+}
+
+.bcrm-save-btn {
+    background: darkolivegreen;
+}
+
+.bcrm-save-btn-content::before {
+    content: "\e692";
+}
+
+.bcrm-cancel-btn {
+    background: indianred;
+}
+
+.bcrm-cancel-btn-content::before {
+    content: "\e60a";
+}
+
+.bcrm-dummy-btn {
+    background: lightcoral;
+}
+
+.bcrm-dummy-btn-content::before {
+    content: "\e621";
+}
+
+.bcrm-edit-btn {
+    background: darkseagreen;
+}
+
+.bcrm-edit-btn-content::before {
+    content: "\e634";
+}
+
+.bcrm-del-btn {
+    background: red;
+}
+
+.bcrm-del-btn-content::before {
+    content: "\e609";
+}
+
+.bcrm-spread-btn {
+    background: #d0881c;
+}
+
+.bcrm-spread-btn-content::before {
+    content: "\e662";
+}
+
+.bcrm-query-btn {
+    background: #348a5a;
+}
+
+.bcrm-query-btn-content::before {
+    content: "\e621";
+}
+
+.bcrm-equery-btn {
+    background: #348a5a;
+}
+
+.bcrm-equery-btn-content::before {
+    content: "\e659";
+	padding-left:2px;
+}
+
+.bcrm-uquery-btn {
+    background: indianred;
+}
+
+.bcrm-uquery-btn-content::before {
+    content: "\e60a";
+	
+}
+
+.bcrm-count-btn {
+    background: #880e4f;
+}
+
+.bcrm-count-btn-content::before {
+    content: "\e697";
+	padding-right: 2px;
+}
+
+.siebui-applet .siebui-applet-buttons {
+    background: white !important
+}
+
+.siebui-applet.siebui-active {
+    border-style: solid;
+    border-width: 0px
+}
+
+.rsl-new-grid .mceGridLabel {
+    text-align: left
+}
+
+form input[readonly="readonly"],form textarea[readonly="readonly"] {
+    border-color: #727780 !important;
+    border-width: 1px !important;
+    border-style: solid !important
+}
+
+@media (min-width: 321px) {
+    .rsl-new-grid div.rsl-new-grid-wrap {
+        float:left;
+        width: 50%;
+        margin-bottom: 2px
+    }
+}
+
+@media (min-width: 480px) {
+    .rsl-new-grid div.rsl-new-grid-wrap {
+        float:left;
+        width: 33.33%;
+        margin-bottom: 2px
+    }
+}
+
+@media (min-width: 992px) {
+    .rsl-new-grid div.rsl-new-grid-wrap {
+        float:left;
+        width: 25%;
+        margin-bottom: 2px
+    }
+}
+
+@media (min-width: 768px) {
+    .siebui-applet .siebui-applet-header span {
+        /*display:initial*/
+    }
+
+    .siebui-applet .siebui-applet-header span.siebui-icon-bttns_less {
+        /*position: initial*/
+    }
+}
+
+.rsl-new-grid-sc {
+    float: left;
+    width: 98vw
+}
+
+.rsl-new-grid-sc h3 {
+    background: darkgray;
+    width: 98vw;
+    height: 30px;
+    float: left;
+    padding-top: 5px
+}
+
+ul.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all.siebui-nav-hb-open.siebui-nav-hb-visible {
+    z-index: 9999
+}
+
+.rsl-new-grid div.rsl-new-grid-wrap {
+    height: 54px
+}
+
+.ui-switch.on,.ui-switch.off {
+    position: relative;
+    left: 30%
+}
+
+div.ui-dialog {
+    max-width: 90%
+}
+
+.custom-hidden {
+    display: none !important
+}
+
+#bcrm_bool_ctl {
+    position: relative;
+    height: 30px;
+    left: 10px;
+    margin-right: 10px;
+    top: 1px;
+    border-width: 1px;
+    border-color: #727780
+}
+
+@media (min-width: 1024px) {
+    .applicationMenu {
+        display:initial;
+        visibility: initial
+    }
+}
+
+.ui-menubar .ui-menubar-item .ui-menubar-link {
+    font-size: 15px;
+    font-weight: 200;
+    border-left: 0px;
+    border-right: 0px;
+    color: #0d2d6c;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden
+}
+
+.ui-menubar .ui-menubar-item:first-child {
+    border-left: 0px
+}
+
+.ui-menubar .ui-menubar-item:last-child {
+    border-right: 0px
+}
+
+.ui-menubar .ui-menubar-item .ui-state-hover,.ui-menubar .ui-menubar-item .ui-state-focus>a,.ui-menubar .ui-menubar-item a.ui-state-focus,.ui-menubar .ui-menubar-item .ui-state-active {
+    background: #0d2d6c;
+    color: white !important
+}
+
+.ui-menu .ui-menu-item a {
+    background: #0d2d6c;
+    color: white !important;
+    border-radius: 0px;
+    border-width: 0px
+}
+
+.ui-menu .ui-menu-divider {
+    margin: 0px
+}
+
+.bcrm-sli-img {
+    border-style: solid;
+    border-width: 5px;
+    border-color: transparent;
+    margin: 2px 4px 2px 4px
+}
+
+.bcrm-img-primary {
+    border-style: inset;
+    border-width: 5px;
+    border-color: whitesmoke
+}
+
+.bcrm-sli-img.bcrm-custom-img {
+    border-style: none
+}
+
+.bcrm-phone::before {
+    content: "\e65a";
+    font-family: oracle;
+    font-size: 1.1em;
+    background: #0d2d6c;
+    color: white;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #0d2d6c;
+    margin-right: 4px
+}
+
+.bcrm-sli-phone a,.bcrm-sli-map a {
+    color: #0d2d6c !important
+}
+
+.siebui-screen-hp-title {
+    font-size: 1.3em
+}
+
+.siebui-screen-hp-content {
+    font-size: 1.2em
+}
+
+.bcrm-sli-dat div,.bcrm-sli-dr a.drilldown {
+    font-size: 18px !important;
+    /*padding-top: 2px*/
+}
+
+.ui-jqgrid .ui-jqgrid-pager {
+    border-top-width: 0px !important
+}
+
+
+/*alex: for checkbox PW*/
+.bcrm-checkbox{
+	-ms-transform: scale(0); /* IE */
+  -moz-transform: scale(0); /* FF */
+  -webkit-transform: scale(0); /* Safari and Chrome */
+  -o-transform: scale(0); /* Opera */
+	transform: scale(0);
+}
+.bcrm-checkbox + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+	left:40%;
+	top: -10px;
+}
+.bcrm-checkbox + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+	border-style:solid;
+	border-width:2px;
+}
+.bcrm-checkbox:checked + label:before {
+    background: #57823d;
+}
+.bcrm-checkbox[readonly="readonly"] + label:before{
+	background: #cccccc;
+}
+.bcrm-checkbox:checked + label:after {
+    content: '\e63d';
+    font-family: oracle;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    color: white;
+    font-size: 0.8em;
+}
+
+/*Banner for big screen*/
+.applicationMenu .siebui-appmenu-toggle {
+    color: #0d2d6c;
+    background: white;
+}
+.applicationMenu{
+	background: white;
+}
+.siebui-search-bar{
+	background: white;
+}
+.siebui-search-esearch .siebui-search-tb-btn, .siebui-search-toolbar-options {
+    background: white;
+    color: #0d2d6c;
+}
+
+/*Always show notification button*/
+.siebui-navigation-side .siebui-btn-notify {
+    display: inherit;
+    visibility: inherit;
+}
+
+/*3rd level view nav*/
+.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen{
+	background: #0d2d6c;
+    width: 97.5vw;
+    padding: 4px;
+}
+.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn{
+	color:white;
+}
+ .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-hb-header{
+	color:white;
+	font-size: 1.6em;
+    font-weight: 400;
+	display: inherit;
+ }
+ .siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover {
+    background-color: #0d2d6c;
+}
+ /*beautify*/
+ .rsl-new-grid-wrap.bcrm-featured-field{
+	width:100%!important;
+ }
+ .bcrm-featured-field>div>input {
+    font-size: 1.6em!important;
+    font-weight: 500;
+}
+ .bcrm-featured-field-rwd>div>input {
+    font-size: 1.6em!important;
+    font-weight: 500;
+}
+#bcrm-adv.bcrm-forcehide{
+	display:none!important;
+}
+.bcrm-forcehide{
+	display:none!important;
+}
+.bcrm-inactive{
+	background:#cccccc;
+	pointer-events:none;
+}
+/*Home Page Generator*/
+.bcrm-salutation{
+	padding: 30px 10px 0px 20px;
+}
+.bcrm-salutation span {
+    font-size: 1.3em;
+}
+.bcrm-home-bg{
+	background-image:url(../../images/bkgd_watermarkdunes.png);
+	background-size: cover;
+	background-repeat: round;
+	
+}
+.bcrm-home-bgt,
+.siebui-applet-buttons .bcrm-home-bgt{
+	background-color:transparent!important;
+	background:none!important;
+}
+.bcrm-home-ni{
+	margin: 0px 20px;
+}
+.bcrm-home-ni a{
+	font-size:1.3em;
+}
+.bcrm-home-noshadow{
+	box-shadow:inherit!important;
+}
+.bcrm-home-search {
+    max-width: 400px;
+    width: 90vw;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.siebui-applet.siebui-active.siebui-commit-pending {
+	box-shadow: #c24839 0 0 0px 2px !important;
+}
+.bcrm-pending{
+	background: indianred;
+    font-size: 1.2em;
+    padding: 4px;
+    text-align: center;
+}
+/*jqgrid all list applets*/
+.ui-jqgrid-bdiv{
+	min-height:72px;
+}
+.ui-jqgrid .ui-jqgrid-bdiv.bcrm-sli{
+	min-height:85vh;
+}
+/*popup applets*/
+div[name='popup'] .ui-jqgrid-bdiv{
+	/*max-height:160px!important;*/
+	min-height:45vh;
+}
+
+.ui-dialog{
+	top:20px!important;
+}	
+@media (max-width:760px){
+#sieb-ui-popup-mvg-available.bcrm-popup .siebui-applet-active{
+	max-height:73vh!important;
+}	
+#sieb-ui-popup-mvg-available.bcrm-popup .AppletButtons{
+	position:absolute!important;
+	width:100vw;
+	z-index:100;
+}	
+#sieb-ui-popup-mvg-available.bcrm-popup .ui-jqgrid-bdiv.bcrm-popup {
+	top: 18px!important;
+}
+#sieb-ui-popup-mvg-available.bcrm-popup .siebui-popup-action{
+	display:none;
+}
+div.ui-dialog.bcrm-popup {
+   min-height: 90vh;
+   
+    min-width: 100vw;
+	top: -20px!important;
+}
+div[name='popup'] .ui-jqgrid-bdiv.bcrm-popup {
+    /*max-height: 18vh !important;*/
+    min-height: 65vh!important;
+	
+}
+div[name='popup'] .ui-jqgrid-bdiv.bcrm-popup.bcrm-popup-50 {
+   /* min-height: 50vh!important;*/
+	
+}
+.ui-dialog.bcrm-popup .ui-dialog-content {
+    padding: 0px;
+	
+}
+.siebui-popup-btm.bcrm-popup{
+	/*position: absolute;*/
+    /*top: 80vh;*/
+    /*right: 2vw;*/
+}
+.bcrm-height-fix{
+	/*height:80vh!important;*/
+}
+.ui-dialog .ui-dialog-content .siebui-applet {
+    /*min-height: 60vh!important;*/
+}
+.ui-dialog-buttonset {
+    /*bottom: 10px;*/
+    /*position: relative;*/*
+	/*background:white;*/
+}
+}
+/*icons*/
+.siebui-icon-detail::before, .siebui-icon-pick::before {
+    content: "\e621";
+}
+.siebui-icon-mvg::before {
+    content: "\e655";
+}
+.siebui-icon-datetime::before {
+    content: "\e684";
+}
+/*List Applet redesign*/
+.bcrm-sli-row {
+    height: 60px !important;
+    display: table;
+    width: 200vw;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ebebeb;
+}
+.ui-jqgrid .ui-jqgrid-btable tr:nth-child(even) td {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px!important;
+    border-bottom-color: #ebebeb;
+}
+.ui-jqgrid .ui-jqgrid-btable tr:nth-child(odd) td {
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 1px!important;
+    border-bottom-color: #ebebeb;
+}
+/*menu*/
+.ui-menu .ui-menu-divider {
+    margin: 0px!important;
+}
+/*1 col display fix*/
+@media (max-width: 321px){
+.rsl-new-grid .mceGridLabel {
+    text-align: left;
+    display: contents;
+    padding-top: 3px;
+}
+.rsl-new-grid div.rsl-new-grid-wrap {
+    height: auto;
+}
+.PDQToolbarContainer select {
+    width: 120px;
+}
+}
+/*Popup buttons*/
+.siebui-popup-button .siebui-icon-newrecord,
+.siebui-popup-button .siebui-icon-writerecord,
+.siebui-popup-button .siebui-icon-undorecord
+{
+	background: transparent !important;
+    color: #0d2d6c;
+	
+}
+
+.introjs-overlay{position:absolute;box-sizing:content-box;z-index:999999;background-color:#000;opacity:0;background:-moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.9) 100%);background:-webkit-gradient(radial,center center,0,center center,100%,color-stop(0,rgba(0,0,0,.4)),color-stop(100%,rgba(0,0,0,.9)));background:-webkit-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.9) 100%);background:-o-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.9) 100%);background:-ms-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.9) 100%);background:radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.9) 100%);-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}.introjs-fixParent{z-index:auto!important;opacity:1!important;-webkit-transform:none!important;-moz-transform:none!important;-ms-transform:none!important;-o-transform:none!important;transform:none!important}.introjs-showElement,tr.introjs-showElement>td,tr.introjs-showElement>th{z-index:9999999!important}.introjs-disableInteraction{z-index:99999999!important;position:absolute;background-color:#fff;opacity:0}.introjs-relativePosition,tr.introjs-showElement>td,tr.introjs-showElement>th{position:relative}.introjs-helperLayer{box-sizing:content-box;position:absolute;z-index:9999998;background-color:#fff;background-color:rgba(255,255,255,.9);border:1px solid #777;border:1px solid rgba(0,0,0,.5);border-radius:4px;box-shadow:0 2px 15px rgba(0,0,0,.4);-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}.introjs-tooltipReferenceLayer{box-sizing:content-box;position:absolute;visibility:hidden;z-index:100000000;background-color:transparent;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}.introjs-helperLayer *,.introjs-helperLayer :after,.introjs-helperLayer :before{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-ms-box-sizing:content-box;-o-box-sizing:content-box;box-sizing:content-box}.introjs-helperNumberLayer{box-sizing:content-box;position:absolute;visibility:visible;top:-16px;left:-16px;z-index:9999999999!important;padding:2px;font-family:Arial,verdana,tahoma;font-size:13px;font-weight:700;color:#fff;text-align:center;text-shadow:1px 1px 1px rgba(0,0,0,.3);background:#ff3019;background:-webkit-linear-gradient(top,#ff3019 0,#cf0404 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#ff3019),color-stop(100%,#cf0404));background:-moz-linear-gradient(top,#ff3019 0,#cf0404 100%);background:-ms-linear-gradient(top,#ff3019 0,#cf0404 100%);background:-o-linear-gradient(top,#ff3019 0,#cf0404 100%);background:linear-gradient(to bottom,#ff3019 0,#cf0404 100%);width:20px;height:20px;line-height:20px;border:3px solid #fff;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.4)}.introjs-arrow{border:5px solid transparent;content:'';position:absolute}.introjs-arrow.top{top:-10px;border-bottom-color:#fff}.introjs-arrow.top-right{top:-10px;right:10px;border-bottom-color:#fff}.introjs-arrow.top-middle{top:-10px;left:50%;margin-left:-5px;border-bottom-color:#fff}.introjs-arrow.right{right:-10px;top:10px;border-left-color:#fff}.introjs-arrow.right-bottom{bottom:10px;right:-10px;border-left-color:#fff}.introjs-arrow.bottom{bottom:-10px;border-top-color:#fff}.introjs-arrow.bottom-right{bottom:-10px;right:10px;border-top-color:#fff}.introjs-arrow.bottom-middle{bottom:-10px;left:50%;margin-left:-5px;border-top-color:#fff}.introjs-arrow.left{left:-10px;top:10px;border-right-color:#fff}.introjs-arrow.left-bottom{left:-10px;bottom:10px;border-right-color:#fff}.introjs-tooltip{box-sizing:content-box;position:absolute;visibility:visible;padding:10px;background-color:#fff;min-width:200px;max-width:300px;border-radius:3px;box-shadow:0 1px 10px rgba(0,0,0,.4);-webkit-transition:opacity .1s ease-out;-moz-transition:opacity .1s ease-out;-ms-transition:opacity .1s ease-out;-o-transition:opacity .1s ease-out;transition:opacity .1s ease-out}.introjs-tooltipbuttons{text-align:right;white-space:nowrap}.introjs-button{box-sizing:content-box;position:relative;overflow:visible;display:inline-block;padding:.3em .8em;border:1px solid #d4d4d4;margin:0;text-decoration:none;text-shadow:1px 1px 0 #fff;font:11px/normal sans-serif;color:#333;white-space:nowrap;cursor:pointer;outline:0;background-color:#ececec;background-image:-webkit-gradient(linear,0 0,0 100%,from(#f4f4f4),to(#ececec));background-image:-moz-linear-gradient(#f4f4f4,#ececec);background-image:-o-linear-gradient(#f4f4f4,#ececec);background-image:linear-gradient(#f4f4f4,#ececec);-webkit-background-clip:padding;-moz-background-clip:padding;-o-background-clip:padding-box;-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em;zoom:1;margin-top:10px}.introjs-button:hover{border-color:#bcbcbc;text-decoration:none;box-shadow:0 1px 1px #e3e3e3}.introjs-button:active,.introjs-button:focus{background-image:-webkit-gradient(linear,0 0,0 100%,from(#ececec),to(#f4f4f4));background-image:-moz-linear-gradient(#ececec,#f4f4f4);background-image:-o-linear-gradient(#ececec,#f4f4f4);background-image:linear-gradient(#ececec,#f4f4f4)}.introjs-button::-moz-focus-inner{padding:0;border:0}.introjs-skipbutton{box-sizing:content-box;margin-right:5px;color:#7a7a7a}.introjs-prevbutton{-webkit-border-radius:.2em 0 0 .2em;-moz-border-radius:.2em 0 0 .2em;border-radius:.2em 0 0 .2em;border-right:none}.introjs-prevbutton.introjs-fullbutton{border:1px solid #d4d4d4;-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em}.introjs-nextbutton{-webkit-border-radius:0 .2em .2em 0;-moz-border-radius:0 .2em .2em 0;border-radius:0 .2em .2em 0}.introjs-nextbutton.introjs-fullbutton{-webkit-border-radius:.2em;-moz-border-radius:.2em;border-radius:.2em}.introjs-disabled,.introjs-disabled:focus,.introjs-disabled:hover{color:#9a9a9a;border-color:#d4d4d4;box-shadow:none;cursor:default;background-color:#f4f4f4;background-image:none;text-decoration:none}.introjs-hidden{display:none}.introjs-bullets{text-align:center}.introjs-bullets ul{box-sizing:content-box;clear:both;margin:15px auto 0;padding:0;display:inline-block}.introjs-bullets ul li{box-sizing:content-box;list-style:none;float:left;margin:0 2px}.introjs-bullets ul li a{box-sizing:content-box;display:block;width:6px;height:6px;background:#ccc;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;text-decoration:none;cursor:pointer}.introjs-bullets ul li a:hover{background:#999}.introjs-bullets ul li a.active{background:#999}.introjs-progress{box-sizing:content-box;overflow:hidden;height:10px;margin:10px 0 5px 0;border-radius:4px;background-color:#ecf0f1}.introjs-progressbar{box-sizing:content-box;float:left;width:0%;height:100%;font-size:10px;line-height:10px;text-align:center;background-color:#08c}.introjsFloatingElement{position:absolute;height:0;width:0;left:50%;top:50%}.introjs-fixedTooltip{position:fixed}.introjs-hint{box-sizing:content-box;position:absolute;background:0 0;width:20px;height:15px;cursor:pointer}.introjs-hint:focus{border:0;outline:0}.introjs-hidehint{display:none}.introjs-fixedhint{position:fixed}.introjs-hint:hover>.introjs-hint-pulse{border:5px solid rgba(60,60,60,.57)}.introjs-hint-pulse{box-sizing:content-box;width:10px;height:10px;border:5px solid rgba(60,60,60,.27);-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background-color:rgba(136,136,136,.24);z-index:10;position:absolute;-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;-o-transition:all .2s ease-out;transition:all .2s ease-out}.introjs-hint-no-anim .introjs-hint-dot{-webkit-animation:none;-moz-animation:none;animation:none}.introjs-hint-dot{box-sizing:content-box;border:10px solid rgba(146,146,146,.36);background:0 0;-webkit-border-radius:60px;-moz-border-radius:60px;border-radius:60px;height:50px;width:50px;-webkit-animation:introjspulse 3s ease-out;-moz-animation:introjspulse 3s ease-out;animation:introjspulse 3s ease-out;-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;animation-iteration-count:infinite;position:absolute;top:-25px;left:-25px;z-index:1;opacity:0}@-webkit-keyframes introjspulse{0%{-webkit-transform:scale(0);opacity:0}25%{-webkit-transform:scale(0);opacity:.1}50%{-webkit-transform:scale(.1);opacity:.3}75%{-webkit-transform:scale(.5);opacity:.5}100%{-webkit-transform:scale(1);opacity:0}}@-moz-keyframes introjspulse{0%{-moz-transform:scale(0);opacity:0}25%{-moz-transform:scale(0);opacity:.1}50%{-moz-transform:scale(.1);opacity:.3}75%{-moz-transform:scale(.5);opacity:.5}100%{-moz-transform:scale(1);opacity:0}}@keyframes introjspulse{0%{transform:scale(0);opacity:0}25%{transform:scale(0);opacity:.1}50%{transform:scale(.1);opacity:.3}75%{transform:scale(.5);opacity:.5}100%{transform:scale(1);opacity:0}}
+.introjs-tooltip {
+	min-width:300px;
+	font-size:1.2em;
+}
+.introjs-tooltipbuttons a {
+    font-size: 14px;
+}
+
+/*Find Box*/
+.siebui-advance-find-fields {
+    background: white;
+    color: black;
+   width: 80vw;
+    max-width: 300px;
+	font-size: 16px;
+}
+.siebui-advance-find-fields .siebui-search-button {
+    color: #0d2d6c;
+	font-size: 1.3em
+}
+.siebui-advance-find-fields .siebui-find-field .siebui-find-field-cell1,
+.siebui-advance-find-fields .siebui-find-field .siebui-find-field-cell2 {
+    border-style:none;
+	/*padding-top: 4px;*/
+}
+.siebui-find-field-cell2 input{
+	height: 32px;
+	font-size:16px;
+	font-weight:200;
+}
+/*Search and Find*/
+.siebui-search-bar {
+    display: inherit;
+    visibility: visible;
+	height: 0;
+}
+.siebui-search-bar .siebui-search-option {
+    display:none;
+}
+.siebui-search-bar .siebui-search-text {
+    width: 50vw;
+    /* height: 100%; */
+    position: relative;
+    /* float: none; */
+    text-align: left;
+    max-width: 200px;
+ 
+}
+@media (max-width:439px){
+	.siebui-search-bar .siebui-search-text {
+		   width: 50vw;
+    /* height: 100%; */
+    position: relative;
+    /* float: none; */
+    text-align: left;
+    max-width: 200px;
+    top:-40px;
+	right:25vw;
+ 
+}
+}
+.siebui-search-pane-results .siebui-results-list-applet .ui-jqgrid .ui-jqgrid-btable tr:nth-of-type(odd) td {
+    background-color: #ffffff;
+}
+.siebui-search-pane-results .siebui-results-list-applet .ui-jqgrid .ui-jqgrid-btable tr:nth-of-type(even) td {
+    background-color: #ffffff;
+}
+.siebui-search-pane-results .siebui-results-list-applet .ui-jqgrid .ui-jqgrid-btable tr:nth-of-type(even)+section.siebui-search-pane-inline {
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.siebui-results-list-applet a {
+    font-size: 1.3em!important;
+}
+section.siebui-search-pane-inline-applet li {
+    font-size: 1.2em!important;
+}
+.siebui-search-pane-applet-dock,
+.siebui-search-pane-applet-close{
+    background: white;
+    color: #0d2d6c;
+    font-size: 1.4em;
+}
+.siebui-search-pane-applet-dock{
+	display:none;
+}
+
+.bcrm-sli-mid {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/*MVG buttons*/
+@media (max-width: 991px) {
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle {    width: 56px;    height: 56px;    border-radius: 50%;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle:before{    font-family:"oracle";	font-size: 25pt;        line-height: 1.2;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Available'] {background: #348a5a;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Available'] span{	display:none;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Available']:before{content:"\e621";	}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Selected'] {background: #348a5a;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Selected'] span{	display:none;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Selected']:before{content:"\e624"; line-height: 1.3; padding-left: 6px;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-del {background: #f44336;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-del:before{content:"\e609";}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-delall{background: #f44336;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-delall:before{  content:"\e609"; position: relative;    top: -3px;    left: -1px;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-delall:after{  font-family:"oracle";	font-size: 25pt;        line-height: 1.2; content:"\e609"; position: relative;    top: 5px;    left: -18px;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-close {background: #0d2d6c;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-close:before{content:"\e63d"; font-size: 20pt;        line-height: 1.4;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-add {background: #0d2d6c;}
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-add:before{content:"\e6a4"; font-size: 20pt;        line-height: 1.4;}
+}
+
+button.bcrm-select-all[bcrm-method='SelectAll']{
+	background:#0d2d6c;
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+	border-style:none;
+}
+button.bcrm-select-all[bcrm-method='PositionOnRow000']{
+	background:indianred;
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+	border-style:none;
+}
+button.bcrm-select-all[bcrm-method='SelectAll']:before{
+	content:"\e63d";
+	font-family: oracle;
+    color: white;
+}
+button.bcrm-select-all[bcrm-method='PositionOnRow000']:before{
+	content:"\e63a";
+	font-family: oracle;
+    color: white;
+}
+
+.bcrm-fmap{
+	color: #0d2d6c!important;
+	cursor: pointer;
+	}
+	
+.bcrm-emailtype:valid{
+	background: white;
+	}
+.bcrm-emailtype:invalid{
+	background: #eabfbc!important;
+	}	
+.bcrm-required:invalid{
+	border-bottom-color: #c24839!important;
+    border-bottom-style: solid!important;
+    border-bottom-width: 1px!important;
+}	
+input.bcrm-required::placeholder{
+	/*color: #c24839!important;*/
+}	
+	
+.siebui-applet{
+    -webkit-box-shadow: 0 0 0px #dddddd;
+    -moz-box-shadow: 0 0 0px #dddddd;
+    box-shadow: 0 0 0px #dddddd;
+}	
+
+/*Message Broadcast*/
+.header-top .siebui-msgbarbkgrnd-msgread-nomsgs::before, .ToolbarButton .siebui-msgbarbkgrnd-msgread-nomsgs::before, .header-top .siebui-msgbar-bkgrnd-msg-normal::before, .ToolbarButton .siebui-msgbar-bkgrnd-msg-normal::before, .header-top .siebui-msgbar-bkgrnd-msg-high::before, .ToolbarButton .siebui-msgbar-bkgrnd-msg-high::before, .header-top .siebui-msgbar-bkgrnd-msg-urgent::before, .ToolbarButton .siebui-msgbar-bkgrnd-msg-urgent::before {
+    content: "\e6a2";
+	font-size:1.2em;
+}
+.siebui-msgbar-popup .titleClass .ui-dialog-title::before {
+    content: "\e6a2";
+}
+.siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-row-normal>.siebui-mbar::before, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-row-high>.siebui-mbar::before, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-row-urgent>.siebui-mbar::before, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-readmessage-normal>.siebui-mbar::before, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-readmessage-high>.siebui-mbar::before, .siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .siebui-msgbar-accordian-readmessage-urgent>.siebui-mbar::before {
+    content: "";
+}
+/*Banner buttons*/
+.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-btn::before {
+    content: "\e60c";
+    font-size: 1.2em;
+}
+.siebui-toolbar-settings .siebui-toolbar-enable::before {
+    content: "\e608";
+    font-size: 1.2em;
+}
+.siebui-toolbar-settings .siebui-toolbar-enable.bcrm-avatar::before {
+    content: "";
+}
+.applicationMenu .siebui-appmenu-toggle::before {
+    content: "\e905";
+    font-size: 1.2em;
+}
+/*Avatar*/
+img.ToolbarButtonOn.bcrm-avatar{
+width: 30px;
+    padding-top: 2px;
+}
+.siebui-banner-btn .ToolbarButtonOn.bcrm-avatar, .siebui-banner-btn .ToolbarButtonOff.bcrm-avatar {
+    display: block;
+}
+/*Visibility Dropdown*/
+@media(max-width:479px){
+div.vis-dropdown {
+    
+    display: contents;
+}
+div.vis-dropdown>select {
+width: 70%;
+    
+}
+}
+/*overlay*/
+.bcrm-maskoverlay{
+	width: 100%!important;
+    height: 100%!important;
+    top: 0px!important;
+    left: 0px!important;
+    position: absolute!important;
+    display: block!important;
+	z-index: 9999!important;
+	pointer-events:none!important;
+	background:white!important;
+}
+#_sweclient>div.bcrm-load{
+    background:grey;
+    position: absolute;
+    z-index: 9999999;
+}
+
+.siebui-ctrl-drilldown, .drilldown, .email, .siebui-ctrl-link a, .siebui-ctrl-link-disabled a, #findresulttable .siebui-applet-content table .siebui-search-col1 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col1 p .siebui-search-highlight a, #findresulttable .siebui-applet-content table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog table .siebui-search-col2 p .siebui-search-highlight a, .siebui-search-dialog .siebui-search-highlight {
+    color: #0d2d6c!important;
+}
+.btn-icon,.btn-link,.siebui-icon-calc,.siebui-icon-currency,.siebui-icon-date,.siebui-icon-datetime,.siebui-icon-detail,.siebui-icon-dropdown,.siebui-icon-effdate,.siebui-icon-mvg,.siebui-icon-pick,.siebui-icon-phone-outbound,.siebui-icon-mailto,.siebui-icon-date,.siebui-icon-createws,.siebui-icon-editws,.siebui-icon-version,.siebui-icon-mergews,.siebui-icon-openws,.siebui-icon-previewws,.siebui-icon-rebasews,.siebui-appletmenu-btn,.siebui-icon-createrecord,.siebui-icon-deleterecord,.siebui-icon-deleterequest,.siebui-icon-writerecord,.siebui-icon-explicitwriterecord,.siebui-icon-undorecord,.siebui-icon-executequery,.siebui-icon-newquery,.siebui-icon-newrecord,.siebui-icon-editrecord,.siebui-icon-showqueryassistant,.siebui-icon-undoquery,.siebui-icon-find,.siebui-icon-helptext_org_chart_new,.ui-dialog .ui-dialog-content .siebui-popup-select-columns .siebui-popup-ctrl .siebui-btn-icon-e,.siebui-applet .siebui-applet-header .siebui-label-btn,.siebui-applet .siebui-applet-header button,.siebui-email-rtc-text .siebui-email-rtc-stripbtn .siebui-email-rtc-stripbtn-link,.siebui-calpane .siebui-applet-header .siebui-btn-grp-applet,.siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.siebui-ctrl-btn,.siebui-dashboard-container .siebui-dashboard-control-area .siebui-dashboard-ctrl .siebui-dashboard-update,.siebui-dashboard-container .siebui-dashboard-control-area .siebui-dashboard-ctrl .siebui-dashboard-clear,.siebui-chat-pane .siebui-chat .siebui-chat-pane-header .siebui-chat-close,.siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-head .siebui-chat-toggle-area .siebui-chat-dashboard-toggle .siebui-chat-dashboard-switch-visible,.siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-head .siebui-chat-toggle-area .siebui-chat-dashboard-toggle .siebui-chat-dashboard-switch-hidden,.siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-tabs .siebui-chat-tab-body .siebui-chat-dashboard .siebui-chat-dashboard-item-content .siebui-chat-dashboard-item-content-wrap .siebui-chat-dashboard-item-content-btn,.siebui-chat-pane .siebui-chat .siebui-chat-wrap .siebui-chat-toolbar .siebui-chat-toolbar-links a,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-side-toggle-wide,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-side-toggle-wide,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-side-toggle-wide,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-side-toggle-narrow,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-side-toggle-narrow,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-side-toggle-narrow,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-toggle-pin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-toggle-pin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-toggle-pin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-toggle-unpin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-toggle-unpin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-toggle-unpin,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-left-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-left-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-left-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-dock-right-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-dock-right-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-dock-right-toggle,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-side-toggle .siebui-comm-panel-close,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-dock-toggle .siebui-comm-panel-close,.siebui-comm-panel-container .siebui-comm-panel-frame .siebui-comm-panel-header .siebui-comm-panel-btns .siebui-comm-panel-close-toggle .siebui-comm-panel-close,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-cti-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-cti-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-cti-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-cti-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-cti-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-cti-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-dashboard-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-dashboard-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-dashboard-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-dashboard-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-dashboard-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-dashboard-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-chat-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-chat-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-chat-toggle-more,.siebui-comm-panel-container .siebui-comm-panel-cti-toggle .siebui-comm-panel-chat-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-dashboard-toggle .siebui-comm-panel-chat-toggle-less,.siebui-comm-panel-container .siebui-comm-panel-chat-toggle .siebui-comm-panel-chat-toggle-less,.siebui-search-esearch .siebui-search-button,.siebui-search-history-reset,.siebui-advance-find-fields .siebui-search-button,.siebui-advanced-search .siebui-search-button,.siebui-search-toolbar-button,.siebui-appletTitleSection .siebui-appletmenu-btn,.siebui-appletTitleSection .siebui-appletmenu-btn:hover,.siebui-appletTitleSection .siebui-appletmenu-btn:active,.siebui-appletTitleSection .siebui-appletmenu-btn:focus,.siebui-appletTitleSection .siebui-ganttFilterPane,.siebui-appletTitleSection .siebui-ganttFilter,.siebui-appletTitleSection .siebui-ganttFilter:active,.siebui-appletTitleSection .siebui-ganttFilter:focus,.siebui-prevButton,.siebui-nextButton,.siebui-prevSetButton,.siebui-nextSetButton,.siebui-todayButton,.siebui-msgbar-popup #MakeAllMsgReadBtn,.siebui-msgbar-popup .siebui-msgbrdcst-summary .siebui-msgbrdcst-accordian .ui-accordion-header .siebui-msgbar-dismiss a,.siebui-telco-view1 .siebui-telco-view1Row1 .siebui-telco-view1Row1Col1 .siebui-applet .siebui-applet-header .siebui-applet-container.siebui-collapsible .siebui-btn-icon-expanded,.siebui-telco-view1 .siebui-telco-view1Row1 .siebui-telco-view1Row1Col1 .siebui-applet .siebui-applet-header .siebui-applet-container.siebui-collapsible .siebui-btn-icon-collapsed,.siebui-checkout-view-wrapper .siebui-checkout-section .siebui-applet-header.siebui-applet-title.siebui-checkout-header .siebui-checkout-edit-btn button,.siebui-checkout-view-wrapper .siebui-checkout-section .siebui-applet-header.siebui-collapsible-applet-header.siebui-checkout-header .siebui-checkout-edit-btn button,.siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.appletButton,.siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.appletButtonDis,.siebui-dashboard-container .siebui-dashboard-field-area .siebui-dashboard-cell .siebui-dashboard-value .siebui-dashboard-element.siebui-button-secondary,.siebui-catalogview-table .siebui-catalogview-col2 .siebui-catalog-category-expanded button,.siebui-catalogview-table .siebui-catalogview-col2 .siebui-catalog-cart-expanded button,.siebui-icon-newrule,.siebui-cfg-rules-insertion-container .siebui-icon-showpopup,.siebui-icon-deleteselection,.siebui-icon-newline,.siebui-barcode button {
+    color: #0d2d6c!important;
+}
+#siebui-threadbar .siebui-crumb {
+	color: #0d2d6c;
+}
+/*Navigation*/
+.siebui-nav-hb.siebui-view-navs .siebui-nav-tabScreen .siebui-nav-hb-open{
+background-color: #0d2d6c;
+     border: 10px solid #0d2d6c;
+    width: 100vw!important;
+top: 40px;
+max-width:420px;
+}
+
+.siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-open{
+background-color: #0d2d6c;
+     border: 10px solid #0d2d6c;
+    width: 80vw!important;
+
+max-width:320px;
+max-height:300px;
+}
+ .siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:focus, .siebui-nav-hb.siebui-view-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-screennavs .siebui-nav-tabView .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabScreen .siebui-nav-hb-btn:hover, .siebui-nav-hb.siebui-subview-navs .siebui-nav-tabView .siebui-nav-hb-btn:hover {
+    background-color: #0d2d6c;
+}
+/*spinner*/
+.bcrm-circles-loader:not(:required),
+.siebui-mask-outer:not(:required){
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(31, 25, 165, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -9999px;
+	top: 45%;
+    left: 45%;
+    /* -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFW…9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); */
+}
+.bcrm-circles-loader:not(:required):before,
+.siebui-mask-outer:not(:required):before {
+    -moz-animation: bcrm-circles-loader 3s infinite;
+    -webkit-animation: bcrm-circles-loader 3s infinite;
+    animation: bcrm-circles-loader 3s infinite;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    left: 0;
+    background: #c7efcf;
+}
+.bcrm-circles-loader:not(:required):before,
+.bcrm-circles-loader:not(:required):after,
+.siebui-mask-outer:not(:required):before,
+.siebui-mask-outer:not(:required):after  {
+    content: '';
+    position: absolute;
+    top: 0;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.bcrm-circles-loader:not(:required):before,
+.siebui-mask-outer:not(:required):before {
+    -moz-animation: bcrm-circles-loader 3s infinite;
+    -webkit-animation: bcrm-circles-loader 3s infinite;
+    animation: bcrm-circles-loader 3s infinite;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    left: 0;
+    background: #c7efcf;
+}
+.bcrm-circles-loader:not(:required):after,
+.siebui-mask-outer:not(:required):after {
+    -moz-animation: bcrm-circles-loader 3s 0.2s reverse infinite;
+    -webkit-animation: bcrm-circles-loader 3s 0.2s reverse infinite;
+    animation: bcrm-circles-loader 3s 0.2s reverse infinite;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    right: 0;
+    background: #eef5db;
+}
+.siebui-mask-overlay .siebui-mask-outer {
+
+    border: none!important;
+    -webkit-animation: none!important;
+    animation:none!important;
+}
+@-moz-keyframes bcrm-circles-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes bcrm-circles-loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+@keyframes bcrm-circles-loader {
+  0% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  50% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+  100% {
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+/*
+ * ----------------------------------------
+ * Mobile Circle Menu
+ * ----------------------------------------
+ */
+ul.bcrm-btn-cont li, ul.bcrm-btn-cont li a {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+ul.bcrm-btn-cont {
+  position: fixed;
+  bottom: -42pt;
+  right: -42pt;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 154pt;
+  height: 154pt;
+}
+
+ul.bcrm-btn-cont li {
+  display: none;
+  position: absolute;
+  bottom: 52pt;
+  right: 52pt;
+  border-radius: 25pt;
+  width: 50pt;
+  height: 50pt;
+  line-height: 50pt;
+  text-align: center;
+  vertical-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 30pt;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+ul.bcrm-btn-cont li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+ul.bcrm-btn-cont li a:visited, ul.bcrm-btn-cont li a:active, ul.bcrm-btn-cont li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+ul.bcrm-btn-cont li:nth-child(1) {
+  display: block;
+  pointer-events:all!important;
+}
+
+
+
+/**
+ * ----------------------------------------
+ * Animations
+ * ----------------------------------------
+ */
+ul.bcrm-btn-cont li:nth-child(2).active,
+ul.bcrm-btn-cont li:nth-child(2).forceactive {
+  display: block;
+  -webkit-animation: animate-li-2 0.2s linear both;
+  animation: animate-li-2 0.2s linear both;
+}
+
+ul.bcrm-btn-cont li:nth-child(3).active,
+ul.bcrm-btn-cont li:nth-child(3).forceactive {
+  display: block;
+  -webkit-animation: animate-li-3 0.2s linear both;
+  animation: animate-li-3 0.2s linear both;
+}
+
+ul.bcrm-btn-cont li:nth-child(4).active,
+ul.bcrm-btn-cont li:nth-child(4).forceactive {
+  display: block;
+  -webkit-animation: animate-li-4 0.2s linear both;
+  animation: animate-li-4 0.2s linear both;
+}
+
+ul.bcrm-btn-cont li:nth-child(5).active,
+ul.bcrm-btn-cont li:nth-child(5).forceactive {
+  display: block;
+  -webkit-animation: animate-li-5 0.2s linear both;
+  animation: animate-li-5 0.2s linear both;
+}
+
+ul.bcrm-btn-cont li:nth-child(6).active,
+ul.bcrm-btn-cont li:nth-child(6).forceactive {
+  display: block;
+  -webkit-animation: animate-li-6 0.2s linear both;
+  animation: animate-li-6 0.2s linear both;
+}
+
+ul.bcrm-btn-cont li:nth-child(7).active,
+ul.bcrm-btn-cont li:nth-child(7).forceactive{
+  display: block;
+  -webkit-animation: animate-li-7 0.2s linear both;
+  animation: animate-li-7 0.2s linear both;
+}
+
+@-webkit-keyframes animate-li-7 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(45.03332pt) translateY(-26pt);
+    transform: scale(1) translateX(45.03332pt) translateY(-26pt);
+  }
+}
+
+@keyframes animate-li-7 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(45.03332pt) translateY(-26pt);
+    transform: scale(1) translateX(45.03332pt) translateY(-26pt);
+  }
+}
+
+@-webkit-keyframes animate-li-6 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(45.03332pt) translateY(26pt);
+    transform: scale(1) translateX(45.03332pt) translateY(26pt);
+  }
+}
+
+@keyframes animate-li-6 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(45.03332pt) translateY(26pt);
+    transform: scale(1) translateX(45.03332pt) translateY(26pt);
+  }
+}
+
+@-webkit-keyframes animate-li-5 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(0pt) translateY(52pt);
+    transform: scale(1) translateX(0pt) translateY(52pt);
+  }
+}
+
+@keyframes animate-li-5 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(0pt) translateY(52pt);
+    transform: scale(1) translateX(0pt) translateY(52pt);
+  }
+}
+
+@-webkit-keyframes animate-li-4 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(-45.03332pt) translateY(26pt);
+    transform: scale(1) translateX(-45.03332pt) translateY(26pt);
+  }
+}
+
+@keyframes animate-li-4 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(-45.03332pt) translateY(26pt);
+    transform: scale(1) translateX(-45.03332pt) translateY(26pt);
+  }
+}
+
+@-webkit-keyframes animate-li-3 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(-45.03332pt) translateY(-26.0pt);
+    transform: scale(1) translateX(-45.03332pt) translateY(-26.0pt);
+  }
+}
+
+@keyframes animate-li-3 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(-45.03332pt) translateY(-26.0pt);
+    transform: scale(1) translateX(-45.03332pt) translateY(-26.0pt);
+  }
+}
+
+@-webkit-keyframes animate-li-2 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(0.00003pt) translateY(-51.99999pt);
+    transform: scale(1) translateX(0.00003pt) translateY(-51.99999pt);
+  }
+}
+
+@keyframes animate-li-2 {
+  0% {
+    -webkit-transform: scale(0) translateX(0) translateY(0);
+    transform: scale(0) translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1) translateX(0.00003pt) translateY(-51.99999pt);
+    transform: scale(1) translateX(0.00003pt) translateY(-51.99999pt);
+  }
+}
+
+.introjs-overlay {
+    background: -moz-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.18) 100%);
+    background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0,rgba(0,0,0,.4)),color-stop(100%,rgba(0,0,0,.18)));
+    background: -webkit-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0, 0, 0, 0.18) 100%);
+	background: -o-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.18) 100%);
+    background: -ms-radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.18) 100%);
+    background: radial-gradient(center,ellipse farthest-corner,rgba(0,0,0,.4) 0,rgba(0,0,0,.18) 100%);
+}
+.introjs-helperLayer {
+     background-color: rgba(255, 255, 255, 0.45);
+}
+
+    /*IP 17+ fixes*/
+    .siebui-navigation-side .siebui-toolbar-settings {
+        display: initial !important;
+        visibility: initial !important;
+        position: relative;
+        right: 15px;
+    }
+
+    .siebui-toolbar-composerconfig .siebui-toolbar-enable a {
+        background: white;
+        color: #0d2d6c;
+    }
+
+	.siebui-search-toolbar-textbox {
+    margin-top: 4px;
+}
+.siebui-search-bar .siebui-search-text {
+       right: 10vw;
+}
+.ui-menubar .ui-menubar-item .ui-menubar-link .ui-button-text {
+     color: #0d2d6c;
+}
+.ui-menubar .ui-menubar-item {
+    border-left: 0px;
+}
+.ui-menubar .ui-menubar-item .ui-state-hover>span,
+ .ui-menubar .ui-menubar-item .ui-state-active>span{
+    
+    color: white!important
+}
+@media (max-width: 439px) {
+    .siebui-search-bar .siebui-search-text {
+          right: 25vw!important;
+    }
+}
+body.bcrm-body .ui-menu .ui-menu-item {
+     background: #0d2d6c;
+}
+.siebui-toolbar-settings .siebui-toolbar-enable.bcrm-avatar::before {
+    content: none;
+}
+img.bcrm-avatar{
+width: 45px;
+    position: relative;
+    right: 10px;
+    top: 2px;
+}
+/*shuttle fix*/
+div.siebui-nonactive>#sieb-ui-popup-mvg-available{
+	display: none;
+}
+@media (max-width: 991px){
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Available']:before {
+    margin-left: 6px;
+    margin-right: 30px;
+}
+
+.siebui-mvg-dialog .ui-dialog-buttonset button.bcrm-shuttle-available[title*='Selected']:before {
+    
+    margin-right: 30px;
+    margin-left: 2px;
+}
+}
+.ui-dialog .ui-dialog-content .siebui-popup-filter .siebui-popup-row-counter {
+    float: right;
+    margin-right: 8px;
+}

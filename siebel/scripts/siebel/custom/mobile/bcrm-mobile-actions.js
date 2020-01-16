@@ -1,5 +1,5 @@
 /*blacksheep IT consulting Copyright
-* Copyright (C) 2016-2019
+* Copyright (C) 2020
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
@@ -641,3 +641,6 @@ if (typeof(SiebelAppFacade.BCRMMobileActions) === "undefined")  {
     }());
 }
 _$dbg("bcrm-mobile-actions.js loaded");
+
+
+

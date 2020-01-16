@@ -29,6 +29,7 @@ function BCRMMainPostLoad(){
     //test user only
     if (SiebelApp.S_App.GetUserName() == "TSMYTHE"){
         //set navigation
+		/*
         if (sessionStorage.BCRMNavSet != "true"){
             if (window.innerWidth >= 1024 ){
                 try{
@@ -45,6 +46,7 @@ function BCRMMainPostLoad(){
                 }
             }
         }
+		*/
         //check for theme change
         if (SiebelApp.S_App.GetProfileAttr("BCRMRefreshNeeded") == "true" && sessionStorage.BCRMThemeRefreshDone != "true"){
 

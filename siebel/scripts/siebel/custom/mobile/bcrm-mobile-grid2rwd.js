@@ -32,7 +32,7 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
 
             pm = utils.ValidateContext(pm);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var an = pm.GetObjName();
 			_$dbg("BCRMRWDFactory.BCRMMakeGridResponsive: " + an);
             var vn = SiebelApp.S_App.GetActiveView().GetName();
@@ -57,7 +57,7 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
 
             //insert responsive grid
             tb.before(newgriddiv);
-            //hide original table
+            //hide original 
             tb.hide();
             
 			_$dbg("BCRMRWDFactory.BCRMMakeGridResponsive.Performance: " + an + " : " + (Date.now()-ts) + " ms.");
@@ -73,7 +73,7 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
             var utils = new SiebelAppFacade.BCRMMobileUtils();
             var pm = utils.ValidateContext(a);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var ng = ae.find("#rsl_new_grid");
             if (ng.length == 1) {
                 $(ng).find("[data-iname]").each(function (i) {
@@ -107,7 +107,7 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
                     var ngrid = rwd.GetResponsiveGrid(pm, BCRMRWDConf[ac]);
                     var ae = utils.GetAppletElem(pm);
                     //ae.find(".rsl-new-grid").hide();
-                    ae.find("table").before(ngrid);
+                    ae.find("table.GridBack").before(ngrid);
 
                     if (m == "NewRecord" && BCRMRWDConf[ac].section0.openfirstfield){
                         setTimeout(function(){
@@ -140,14 +140,14 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
             var utils = new SiebelAppFacade.BCRMMobileUtils();
             var pm = utils.ValidateContext(a);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var cs = pm.Get("GetControls");
             var lbl = [];
             var fld = [];
             var lblid = "";
             var an = pm.GetObjName();
-			_$dbg("BCRMRWDFactory.GetResponsiveGrid: " + an);
-            var newgriddiv = $("<div id='rsl_new_grid' class='rsl-new-grid'></div>");  //the top container for the "new" grid, replacing the table
+		_$dbg("BCRMRWDFactory.GetResponsiveGrid: " + an);
+            var newgriddiv = $("<div id='rsl_new_grid' class='rsl-new-grid'></div>");  //the top container for the "new" grid, replacing the 
             var wrapdiv = "<div class='rsl-new-grid-wrap'></div>"; //container for individual labels/controls
             var cwrapdiv = "<div id='rsl_section_container' class='rsl-new-grid-sc'></div>"; //container for new formsections
             var fs_sel = ".FormSection"; //selector for form sections, for easy replacement
@@ -385,7 +385,7 @@ if (typeof(SiebelAppFacade.BCRMRWDFactory) === "undefined")  {
 			_$dbg("BCRMRWDFactory.GetConfig: " + an + " : " + useconf);
             var fs_sel = ".FormSection"; //selector for form sections, for easy replacement
             var field_sel = ".mceGridField"; //selector for grid layout controls/fields (not labels)
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             //first pass: markup TR and TD elements and collect formsection info
             tb.find("tr").each(function(i){
                 $(this).attr("data-rowpos",rowpos);

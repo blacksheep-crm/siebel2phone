@@ -18,6 +18,25 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN 
 * DO NOT MODIFY THIS FILE!
 * Use hook to custom function container in custom/bcrm-custom-postload.js to run additional custom logic on postload
 */
+
+/*workaround for 20.9 small screen check, breaks MVG popup on 481px or less width unless using Auto Tile feature*/
+if (typeof (SiebelApp.Utils.IsSmallScreen) === "function") {
+    var t = SiebelApp.Utils.IsSmallScreen;
+    SiebelApp.Utils.IsSmallScreen = function () {
+        var e = !window.matchMedia("(min-width: 481px)").matches;
+        return function () {
+            //replace with actual application name, the following line is an example
+            if (SiebelApp.S_App.GetName() != "Siebel Universal Agent") {
+
+                return false;
+            }
+            else {
+                return e;
+            }
+        }
+    }();
+}
+
 SiebelApp.EventManager.addListner("postload", BCRMMainPostLoad);
 var BCRMGM = false;
 

@@ -32,7 +32,7 @@ if (typeof (SiebelAppFacade.BCRMRWDFactory) === "undefined") {
 
             pm = utils.ValidateContext(pm);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var an = pm.GetObjName();
             _$dbg("BCRMRWDFactory.BCRMMakeGridResponsive: " + an);
             var vn = SiebelApp.S_App.GetActiveView().GetName();
@@ -73,7 +73,7 @@ if (typeof (SiebelAppFacade.BCRMRWDFactory) === "undefined") {
             var utils = new SiebelAppFacade.BCRMMobileUtils();
             var pm = utils.ValidateContext(a);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var ng = ae.find("#rsl_new_grid");
             if (ng.length == 1) {
                 $(ng).find("[data-iname]").each(function (i) {
@@ -107,7 +107,7 @@ if (typeof (SiebelAppFacade.BCRMRWDFactory) === "undefined") {
                     var ngrid = rwd.GetResponsiveGrid(pm, BCRMRWDConf[ac]);
                     var ae = utils.GetAppletElem(pm);
                     //ae.find(".rsl-new-grid").hide();
-                    ae.find("table").before(ngrid);
+                    ae.find("table.GridBack").before(ngrid);
 
                     if (m == "NewRecord" && BCRMRWDConf[ac].section0.openfirstfield) {
                         setTimeout(function () {
@@ -140,7 +140,7 @@ if (typeof (SiebelAppFacade.BCRMRWDFactory) === "undefined") {
             var utils = new SiebelAppFacade.BCRMMobileUtils();
             var pm = utils.ValidateContext(a);
             var ae = utils.GetAppletElem(pm);
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             var cs = pm.Get("GetControls");
             var lbl = [];
             var fld = [];
@@ -412,7 +412,7 @@ if (typeof (SiebelAppFacade.BCRMRWDFactory) === "undefined") {
             _$dbg("BCRMRWDFactory.GetConfig: " + an + " : " + useconf);
             var fs_sel = ".FormSection"; //selector for form sections, for easy replacement
             var field_sel = ".mceGridField"; //selector for grid layout controls/fields (not labels)
-            var tb = ae.find("table");
+            var tb = ae.find("table.GridBack");
             //first pass: markup TR and TD elements and collect formsection info
             tb.find("tr").each(function (i) {
                 $(this).attr("data-rowpos", rowpos);

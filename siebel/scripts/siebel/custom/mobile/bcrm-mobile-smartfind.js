@@ -1,5 +1,5 @@
 /*blacksheep IT consulting Copyright
-* Copyright (C) 2020
+* Copyright (C) 2016 - 2021
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
@@ -287,7 +287,6 @@ if (typeof (SiebelAppFacade.BCRMQuerySrchSpecEnhancerPW) === "undefined") {
                                             break;
                                         }
                                     }
-                                    debugger;
                                     var dt = fm[cbef].GetDataType();
                                     if ($.inArray(dt,nopp) == -1){
 										if (cbef != sdef){
@@ -483,7 +482,6 @@ if (typeof (SiebelAppFacade.BCRMQuerySrchSpecEnhancerPW) === "undefined") {
                                     if (newval == "Primary"){
                                         dt = "bool";
                                     }
-                                    debugger;
                                     if (typeof(dt) !== "undefined" && dt.indexOf("date") >= 0){  //date control selected: show date picker
                                         $(ae).find("#bcrm_date_ctl").show();
                                         $(ae).find("#bcrm_bool_ctl").hide();

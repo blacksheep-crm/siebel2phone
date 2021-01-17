@@ -1,5 +1,5 @@
 /*blacksheep IT consulting Copyright
-* Copyright (C) 2020
+* Copyright (C) 2016 - 2021
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
@@ -135,8 +135,6 @@ if (typeof (SiebelAppFacade.BCRMMobileUtils) === "undefined") {
                 appletElem = $("#" + "s_" + appletElemId + "_div");
             }
             retval = appletElem;
-
-
             return retval;
         };
 
@@ -425,53 +423,56 @@ if (typeof (SiebelAppFacade.BCRMMobileUtils) === "undefined") {
             var an = pm.GetObjName();
 
             if (typeof (BCRMSwipeConf[an]) !== "undefined" && this.GetViewType() == "detailview") {
-                _$dbg("BCRMMobileUtils.AddSwiper" + an);
-                //save pending changes
-                pm.AttachPMBinding("ShowSelection", this.NotifyPendingChanges);
-                pm.AttachPMBinding("FieldChange", this.NotifyPendingChanges);
+                if (pm.Get("BCRMSwiperEnabled") !== "true") {
+                    _$dbg("BCRMMobileUtils.AddSwiper" + an);
+                    //save pending changes
+                    pm.AttachPMBinding("ShowSelection", this.NotifyPendingChanges);
+                    pm.AttachPMBinding("FieldChange", this.NotifyPendingChanges);
 
-                //swiper
-                var ael = this.GetAppletElem(pm);
-                //ael.sortable({axis: "x"});
-                var sarea = $(ael).find("#rsl_section_container");
-                if (sarea.length > 0) {
-                    try {
-                        var sman = new BCRMHammer.Manager($(ael).find("#rsl_section_container")[0], {});
-                        var sev = new BCRMHammer.Swipe();
-                        sman.add(sev);
-                        var that = this;
-                        sman.on("swipeleft", function (e) {
-                            var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
-                            if (ap.CanInvokeMethod("GotoNextSet")) {
-                                ap.InvokeMethod("GotoNextSet");
-                                SiebelAppFacade.BCRMMobileActions.prototype.ButtonManager(ap.GetPModel());
-                            }
-                        });
-                        sman.on("swiperight", function (e) {
-                            var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
-                            if (ap.CanInvokeMethod("GotoPreviousSet")) {
-                                ap.InvokeMethod("GotoPreviousSet");
-                                SiebelAppFacade.BCRMMobileActions.prototype.ButtonManager(ap.GetPModel());
-                            }
-                        });
-                        sman.on("swipedown", function (e) {
-                            var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
-                            var ael = that.GetAppletElem(ap);
-                            if ($(ael).find(".siebui-icon-bttns_more").length > 0) {
-                                ap.InvokeMethod("ToggleLayout");
-                            }
-                        });
-                        sman.on("swipeup", function (e) {
-                            var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
-                            var ael = that.GetAppletElem(ap);
-                            if ($(ael).find(".siebui-icon-bttns_less").length > 0) {
-                                ap.InvokeMethod("ToggleLayout");
-                            }
-                        });
-                    }//end try
-                    catch (e) {
-                        console.log("BCRMMobileUtils.AddSwiper: " + e.toString());
+                    //swiper
+                    var ael = this.GetAppletElem(pm);
+                    //ael.sortable({axis: "x"});
+                    var sarea = $(ael).find("#rsl_section_container");
+                    if (sarea.length > 0) {
+                        try {
+                            var sman = new BCRMHammer.Manager($(ael).find("#rsl_section_container")[0], {});
+                            var sev = new BCRMHammer.Swipe();
+                            sman.add(sev);
+                            var that = this;
+                            sman.on("swipeleft", function (e) {
+                                var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
+                                if (ap.CanInvokeMethod("GotoNextSet")) {
+                                    ap.InvokeMethod("GotoNextSet");
+                                    SiebelAppFacade.BCRMMobileActions.prototype.ButtonManager(ap.GetPModel());
+                                }
+                            });
+                            sman.on("swiperight", function (e) {
+                                var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
+                                if (ap.CanInvokeMethod("GotoPreviousSet")) {
+                                    ap.InvokeMethod("GotoPreviousSet");
+                                    SiebelAppFacade.BCRMMobileActions.prototype.ButtonManager(ap.GetPModel());
+                                }
+                            });
+                            sman.on("swipedown", function (e) {
+                                var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
+                                var ael = that.GetAppletElem(ap);
+                                if ($(ael).find(".siebui-icon-bttns_more").length > 0) {
+                                    ap.InvokeMethod("ToggleLayout");
+                                }
+                            });
+                            sman.on("swipeup", function (e) {
+                                var ap = SiebelApp.S_App.GetActiveView().GetActiveApplet();
+                                var ael = that.GetAppletElem(ap);
+                                if ($(ael).find(".siebui-icon-bttns_less").length > 0) {
+                                    ap.InvokeMethod("ToggleLayout");
+                                }
+                            });
+                        }//end try
+                        catch (e) {
+                            console.log("BCRMMobileUtils.AddSwiper: " + e.toString());
+                        }
                     }
+                    pm.SetProperty("BCRMSwiperEnabled", "true");
                 }
             }
         };
@@ -601,7 +602,10 @@ if (typeof (SiebelAppFacade.BCRMMobileUtils) === "undefined") {
             var pm = utils.ValidateContext(a);
             var pr = pm.GetRenderer();
             var an = pm.GetObjName();
-            pm.AttachPMBinding("ShowSelection", utils.AddressMapper, { scope: pm });
+            if (pm.Get("BCRMAddressMapperEnabled") !== "true") {
+                pm.AttachPMBinding("ShowSelection", utils.AddressMapper, { scope: pm });
+                pm.SetProperty("BCRMAddressMapperEnabled","true");
+            }
             var conf = BCRMAddress2MapConf[an];
             var href = "";
             var ha;
@@ -654,6 +658,73 @@ if (typeof (SiebelAppFacade.BCRMMobileUtils) === "undefined") {
             }
         };
 
+        //primer to prepare application and view
+        //invoke in postload
+        BCRMMobileUtils.prototype.Primer = function () {
+            //add body class
+            $("body").addClass("bcrm-body");
+            //clean up view
+            $("#_sweview").removeAttr("title");
+            $("#_sweview").scrollTop(0);
+            $("#_sweview").find(".siebui-applet").first().click();
+            //support mobile web apps (fullscreen browser)
+            var meta = '<meta name="mobile-web-app-capable" content="yes">';
+            if ($("head").find("meta[name='mobile-web-app-capable']").length == 0) {
+                $("head").append(meta);
+            }
+            meta = '<meta name="viewport" content="width=device-width, initial-scale=1">';
+            if ($("head").find("meta[name='viewport']").length == 0) {
+                $("head").append(meta);
+            }
+        };
+        //improve vanilla avatar with saved or external pic
+        BCRMMobileUtils.prototype.ShowAvatar = function (imgurl) {
+            var imgsrc = "";
+            if (typeof (imgurl) !== "undefined") {
+                imgsrc = imgurl;
+            }
+            if ($("#siebui-toolbar-settings").find("span.ToolbarButtonOn").find("img").length > 0) {
+                var im = $("#siebui-toolbar-settings").find("span.ToolbarButtonOn").find("img");
+                if (imgsrc != "") {
+                    im.attr("src", imgsrc);
+                }
+                if (im.attr("src") != "images/photo.png") {
+                    im.addClass("bcrm-avatar");
+                    im.parent().addClass("bcrm-avatar");
+                    $("li.siebui-toolbar-enable").addClass("bcrm-avatar");
+                }
+            }
+        };
+
+        BCRMMobileUtils.prototype.CleanUp = function () {
+            //clean up fast home page stuff
+            var vn = SiebelApp.S_App.GetActiveView().GetName();
+            var utils = new SiebelAppFacade.BCRMMobileUtils();
+            if (vn != "Account Screen Homepage View") {
+                $("[title-preserved='Account Home']").removeClass("bcrm-home-bg");
+                $("[id*='s_S_A']").removeClass("bcrm-home-bgt");
+                $(".siebui-applet-buttons").removeClass("bcrm-home-bgt");
+                $(".siebui-screen-applet-head").removeClass("bcrm-home-bgt");
+                $(".siebui-screen-hp-desc input").removeClass("bcrm-home-bgt");
+                $("[title-preserved='Account Home']").find("a").removeClass("bcrm-home-bgt");
+                $(".siebui-applet").removeClass("bcrm-home-noshadow");
+            }
+
+            //hide any instance of search results
+            setTimeout(function () {
+                $("#srchpanecontainer").addClass("bcrm-forcehide");
+            }, 100);
+
+            //hide iHelp applet on home pages for small screens
+            if (vn.indexOf("Home") != -1 && window.innerWidth < 768) {
+                var iha = utils.GetAppletElem("Screen Home Task Assistant List Applet");
+                if (iha != null) {
+                    if (iha.length > 0) {
+                        iha.hide();
+                    }
+                }
+            }
+        };
         return BCRMMobileUtils;
     }());
 }

@@ -123,8 +123,9 @@ if (typeof (SiebelAppFacade.BCRMQuerySrchSpecEnhancerPW) === "undefined") {
 						if (BCRMSLIConf[objName]["popup"][1] == "MultiSelect"){
 							if (typeof(cbe) !== "undefined"){
 								var sabtn = $("<button type='button' id='bcrm_select_all' class='bcrm-select-all' bcrm-method='SelectAll'>");
-								cbe.before(sabtn);
-								sabtn.on("click",function(e){
+								if (cbe.parent().find("#bcrm_select_all").length == 0){
+									cbe.before(sabtn);
+									sabtn.on("click",function(e){
 									var m = $(this).attr("bcrm-method");
 									that.control.GetApplet().InvokeMethod(m);
 									if (m == "SelectAll"){
@@ -137,6 +138,7 @@ if (typeof (SiebelAppFacade.BCRMQuerySrchSpecEnhancerPW) === "undefined") {
 									}
 									
 								});
+								}
 							}
 						}
 						}

@@ -1,5 +1,5 @@
 /*blacksheep IT consulting Copyright
-* Copyright (C) 2016 - 2021
+* Copyright (C) 2016-2019
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
@@ -189,7 +189,19 @@ var BCRMBeautifierConf = {
 	"Contact Assoc Applet" : [".siebui-popup-action","rsl-hidden"]
 }
 
-//Exclusion list for form applets that cannot be RWD'd
+//Exclusion list / blacklist for form applets that cannot be RWD'd
+var BCRMRWDBlacklist = [
+    "Quote Catalog List Applet OUI Dropdown",
+    "Layout Controls SI Applet",
+    "Account Home Add Virtual Form Applet",
+    "eCalendar Daily Applet Home Page - HI",
+    "Salutation Applet (WCC Home)",
+    "Layout Controls Applet",
+    "SS Shopping Cart Info Applet",
+    "Activity HI Outlook Calendar Applet",
+	"Opportunity Default Chart Applet"
+];
+
 var BCRMRWDExclusionList = [
     "Quote Catalog List Applet OUI Dropdown",
     "Layout Controls SI Applet",
@@ -286,7 +298,10 @@ var BCRMSwipeConf = {
 //Popup Applets without search box
 var BCRMPopupNoSearch = {
 	"Employee Mvg Applet":{},
-	"Primary Contact Mvg Applet":{}
+	"Employee Assoc Applet":{},
+	"Primary Contact Mvg Applet":{},
+	"Contact Assoc Applet":{},
+	"Opportunity Pick Applet":{}
 };
 
 //user guide/intro.js definitions

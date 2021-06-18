@@ -2359,8 +2359,8 @@ div[name='popup'] .ui-jqgrid-bdiv.bcrm-popup.bcrm-popup-50 {
     /*min-height: 60vh!important;*/
 }
 .ui-dialog-buttonset {
-    /*bottom: 10px;*/
-    /*position: relative;*/*
+    bottom: 16px;
+    position: relative;
 	/*background:white;*/
 }
 }
@@ -2544,6 +2544,7 @@ button.bcrm-select-all[bcrm-method='SelectAll']{
     height: 30px;
     border-radius: 50%;
 	border-style:none;
+	float:left;
 }
 button.bcrm-select-all[bcrm-method='PositionOnRow000']{
 	background:indianred;
@@ -2551,16 +2552,19 @@ button.bcrm-select-all[bcrm-method='PositionOnRow000']{
     height: 30px;
     border-radius: 50%;
 	border-style:none;
+	float:left;
 }
 button.bcrm-select-all[bcrm-method='SelectAll']:before{
 	content:"\e63d";
 	font-family: oracle;
     color: white;
+	margin-left: -4px;
 }
 button.bcrm-select-all[bcrm-method='PositionOnRow000']:before{
 	content:"\e63a";
 	font-family: oracle;
     color: white;
+	margin-left: -2px;
 }
 
 .bcrm-fmap{
